@@ -1,0 +1,12 @@
+Pennys = input('How many pennys do you wish to deposit? ')
+Nickles = input('How many nickles do you wish to deposit? ')
+Dimes = input('How many dimes do you wish to deposit? ')
+Quarters = input('How many quarters do you wish to deposit? ')
+
+Nickles = int(Nickles) * 5
+Dimes = int(Dimes) * 10
+Quarters = int(Quarters) * 25
+
+Total = (int(Pennys) + int(Nickles) + int(Quarters) + int(Dimes)) / 100
+
+print("Your total is $" + str(Total))

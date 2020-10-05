@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="daniel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-04 06:48:47 PM"/>
+        <attribute name="created" value="ZGFuaWVsO0RFU0tUT1AtVUk5RjNWNzsyMDIwLTEwLTA0OzA2OjE2OjA2IFBNOzI5NTM="/>
+        <attribute name="edited" value="ZGFuaWVsO0RFU0tUT1AtVUk5RjNWNzsyMDIwLTEwLTA0OzA2OjQ4OjQ3IFBNOzU7MzA3NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Gallon to liter converter&quot;" newline="True"/>
+            <output expression="&quot;How many gallons of gas?&quot;" newline="True"/>
+            <comment text="Take input"/>
+            <declare name="Gallons" type="Integer" array="False" size=""/>
+            <input variable="Gallons"/>
+            <declare name="Liters" type="Integer" array="False" size=""/>
+            <assign variable="Liters" expression="Gallons * 3.7854"/>
+            <output expression="Liters" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

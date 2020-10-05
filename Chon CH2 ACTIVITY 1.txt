@@ -1,0 +1,12 @@
+hours = input('How many hours do you work a week? ')
+rate = input('How much do you get paid per hour? ')
+
+weekly = int(rate) * int(hours)
+
+monthly = int(weekly) * 4
+
+annual = int(monthly) * 12
+
+print("Weekly pay: $" + str(weekly))
+print("Monthly pay: $" + str(monthly))
+print("Annual pay: $" + str(annual))

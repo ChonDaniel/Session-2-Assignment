@@ -1,0 +1,8 @@
+Output "What is your dog's name?"
+Input name
+Output "How old is your dog in human years?"
+input years
+
+age = years * 7
+
+Output name + " is " + age + " years old in dog years."

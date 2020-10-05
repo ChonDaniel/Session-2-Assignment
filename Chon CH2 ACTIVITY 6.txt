@@ -1,0 +1,13 @@
+length = input('What is the length of the room? ')
+width = input('What is the width of the room? ')
+height = input('What is the height of the room? ')
+price = input('What is the price per gallon of paint? ')
+paint = input('How many square feet will the gallon of paint cover? ')
+
+area = 2 * int(length) * int(height) + 2 * int(width) * int(height)
+gallons = area / int(paint)
+cost = gallons * int(price)
+
+print ("The total area is " + str(area) + " sqft")
+print ("The total number of gallons is " + str(gallons))
+print ("The total cost of paint is $" + str(cost))

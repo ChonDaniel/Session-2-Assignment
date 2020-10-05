@@ -1,0 +1,22 @@
+Output "What is the length of the room?"
+Input length
+
+Output "What is the width of the room?"
+Input width
+
+Output "What is the height of the room?"
+Input height
+
+Output "What is the price per gallon of paint?"
+Input price
+
+Output "How many square feet will the gallon of paint cover?"
+Input paint
+
+area = 2 * length * height + 2 * width * height
+gallons = area / paint
+cost = gallons * price
+
+Output "The total area is " + area + " sqft"
+Output "The total number of gallons is " + gallons
+Output "The total cost of paint is $" + cost

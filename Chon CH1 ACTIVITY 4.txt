@@ -1,0 +1,7 @@
+print("Gallons to liters converter")
+
+Gallons = input('How many gallons do you wish to convert ')
+
+Liters = int(Gallons) * 3.7854
+
+print("There are " + str(Liters) + " liters in " + Gallons + " gallons")

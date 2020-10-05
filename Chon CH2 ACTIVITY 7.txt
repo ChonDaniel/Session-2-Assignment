@@ -1,0 +1,6 @@
+name = input('What is your dog''s name? ')
+years = input('How old is your dog in human years? ')
+
+age = int(years) * 7
+
+print (name + " is " + str(age) + " years old in dog years.")

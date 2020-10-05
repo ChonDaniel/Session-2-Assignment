@@ -1,0 +1,18 @@
+Output "How much do you get paid per hour?"
+Input rate 
+
+Output "How many hours do you work a week?"
+Input hours
+
+interger weekly
+interger monthly
+interger annual
+
+weekly = rate * hours
+Output "Weekly pay: $" + weekly
+
+monthly = weekly * 4
+Output "Monthly pay: $" + monthly
+
+annual = monthly * 12
+Output "Annual gross pay: $" + annual

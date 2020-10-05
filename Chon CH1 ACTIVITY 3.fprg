@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="daniel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-04 06:21:22 PM"/>
+        <attribute name="created" value="ZGFuaWVsO0RFU0tUT1AtVUk5RjNWNzsyMDIwLTEwLTA0OzA0OjMwOjQ4IFBNOzI5NTM="/>
+        <attribute name="edited" value="ZGFuaWVsO0RFU0tUT1AtVUk5RjNWNzsyMDIwLTEwLTA0OzA2OjIxOjIyIFBNOzI7MzA1Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Ask for how many coins for each type of coin"/>
+            <comment text=""/>
+            <declare name="Pennys" type="Integer" array="False" size=""/>
+            <declare name="Nickles" type="Integer" array="False" size=""/>
+            <declare name="Dimes" type="Integer" array="False" size=""/>
+            <declare name="Quarters" type="Integer" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="d" type="Integer" array="False" size=""/>
+            <declare name="Total" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <input variable="d"/>
+            <assign variable="Pennys" expression="a * 1"/>
+            <assign variable="Nickles" expression="b * 5"/>
+            <assign variable="Dimes" expression="c * 10"/>
+            <assign variable="Quarters" expression="d * 25"/>
+            <assign variable="Total" expression="(Pennys + Dimes + Nickles + Quarters) / 100"/>
+            <output expression="&quot;Your total is &quot;" newline="True"/>
+            <output expression="Total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
